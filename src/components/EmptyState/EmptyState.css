@@ -1,0 +1,18 @@
+.empty-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  text-align: center;
+  gap: 12px;
+}
+
+.empty-icon  { font-size: 3rem; line-height: 1; }
+
+.empty-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.empty-body  { color: var(--text-secondary); max-width: 380px; line-height: 1.7; }
